@@ -1,0 +1,29 @@
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.custom-snackbar {
+  background-color: #ffffff; /* Light background */
+  color: black; /* Green text (Material green 800) */
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 14px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+  border: 1px solid #c8e6c9; /* Light green border */
+}
+
+/* Action button inside snackbar */
+.mat-simple-snackbar-action {
+  color: black; /* Darker green for contrast */
+  font-weight: bold;
+  text-transform: uppercase;
+}

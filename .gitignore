@@ -1,0 +1,5 @@
+karma
+nunit
+angularapp/node_modules
+package-lock.json
+Migrations
